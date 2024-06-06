@@ -13,7 +13,7 @@ generateButton.addEventListener("click",
         let userFullNameValue = userFullNameInput.value;
         document.querySelector(".userFullName").innerHTML = userFullNameValue;
 
-        let offer = "Standard Price"
+        let offer = "Standard Price";
         let priceKm = 0.21;
         let numberKm = numberKmInput.value;
         let travelPrice = numberKm * priceKm;
@@ -57,6 +57,12 @@ cancelButton.addEventListener("click",
         passengerAgeInput.value = "";
         userFullNameInput.value = "";
         numberKmInput.value = "";
+        document.querySelector(".carriage").innerHTML = "";
+        document.querySelector(".cp").innerHTML = "";
+        document.querySelector(".offer").innerHTML = "";
+        document.querySelector(".userFullName").innerHTML = "";
+        document.querySelector(".cost").innerHTML = "";
+
 
     }
 );
