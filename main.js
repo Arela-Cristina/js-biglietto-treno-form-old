@@ -11,7 +11,6 @@ const generateButton = document.querySelector(".generate");
 generateButton.addEventListener("click",
     function () {
         let userFullNameValue = userFullNameInput.value;
-        console.log(userFullNameValue);
         document.querySelector(".userFullName").innerHTML = userFullNameValue;
 
         let offer = "Standard Price"
@@ -52,5 +51,12 @@ generateButton.addEventListener("click",
     }
 );
 
+const cancelButton = document.querySelector(".cancel");
+cancelButton.addEventListener("click",
+    function () {
+        passengerAgeInput.value = "";
+        userFullNameInput.value = "";
+        numberKmInput.value = "";
 
-
+    }
+);
