@@ -4,38 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <form action="#">
-        <input class="userFullNameInput" type="text" placeholder="Full Name ... ">
-        <input class="travelKm" type="text" placeholder="Km you want to travel ... ">
-        <input class="age" type="text" placeholder="Your age ... ">
-        <button class="generate">Generate</button>
-        <button class="cancel">Cancel</button>
-    </form>
+        <h1>Calculate the price of your ticket</h1>
+        <form action="#" class="box-form">
+            <div class="w-30">
+                <h3>Full Name</h3>
+                <input class="userFullNameInput" type="text" placeholder="Full Name ... ">
+            </div>
+            <div class="w-30">
+                <h3>Km</h3>
+                <input class="travelKm" type="text" placeholder="Km you want to travel ... ">
+            </div>
+            <div class="w-30">
+                <h3>Age</h3>
+                <input class="age" type="text" placeholder="Your age ... ">
+            </div>
+        </form>
+        <div class="box-form">
+            <button class="generate">Generate</button>
+            <button class="cancel">Cancel</button>
+        </div>
 
     <section>
-        <div>
-            <h3>Passenger</h3>
-            <h2 class="userFullName"></h2>
-        </div>
-        <div>
-            <h3>Offer</h3>
-            <h2 class="offer"></h2>
-        </div>
-        <div>
-            <h3>Carriage</h3>
-            <h2 class="carriage"></h2>
-        </div>
-        <div>
-            <h3>cp</h3>
-            <h2 class="cp"></h2>
-        </div>
-        <div>
-            <h3>Cost</h3>
-            <h2 class="cost"></h2>
+        <h1>Your ticket</h1>
+        <div class="box-form">
+            <div class="w-20">
+                <h3>Passenger</h3>
+                <h2 class="userFullName"></h2>
+            </div>
+            <div class="w-20">
+                <h3>Offer</h3>
+                <h2 class="offer"></h2>
+            </div>
+            <div class="w-20">
+                <h3>Carriage</h3>
+                <h2 class="carriage"></h2>
+            </div>
+            <div class="w-20">
+                <h3>cp</h3>
+                <h2 class="cp"></h2>
+            </div>
+            <div class="w-20">
+                <h3>Cost</h3>
+                <h2 class="cost"></h2>
+            </div>
         </div>
     </section>
     <script src="main.js"></script>
